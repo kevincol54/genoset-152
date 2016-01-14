@@ -3,7 +3,7 @@ var test = require('tap').test
 var falseyJson = require('./sampleJSON/falseyJson.json')
 var truthyJson = require('./sampleJSON/truthyJson.json')
 
-test('Gs150', function (t) {
+test('Gs152', function (t) {
   var falseyResults = require('../')(falseyJson)
   var truthyResults = require('../')(truthyJson)
   t.same(falseyResults, false, 'should return false')
